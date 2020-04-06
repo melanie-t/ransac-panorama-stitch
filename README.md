@@ -28,20 +28,20 @@ This project stitches images together to create a Panorama. Images are taken fro
 * Harris Corner Response threshold, RANSAC Iterations and RANSAC threshold can be specified in the global variables found in `Main.py` (Line 6-8)
 1.	Run `Main.py` to execute the program
 2.	To go to the next image, press any key (excluding Esc). Output images are saved in `src/project_images/output`
-	* The sequence of the images are as follows:
-		1.	a. Boxes Harris Corner Detection 				
-			b. Rainier1 Harris Corner Detection 			
-			c. Rainier2 Harris Corner Detection 			
-		2. SIFT matches for Rainier 1-2 				
-		3. RANSAC Matches for Rainier1 and Rainier2 		
-		4. Stitched Rainier1 and Rainier2 (R1-2) 			
-		5. RANSAC Matches for R1-2 and Rainier3 (R1-3)
-		6. RANSAC Matches for R1-3 and Rainier4 (R1-4)
-		7. RANSAC Matches for R1-4 and Rainier5 (R1-5)
-		8. RANSAC Matches for R1-5 and Rainier6 (R1-6)
-		9. Stitched Rainier1-6	(Scaled 50% For Displaying) 
-		10. RANSAC Matches for Japan1 and Japan2 (JP1-2) 	
-		11. RANSAC Matches for JP1-2 and Japan3 (JP1-3)		
-		12. Stitched Japan1-3 								
-		13. RANSAC Matches for Hanging1 and Hanging1-2		
-		14. Stitched Hanging1-2						
+	<br>The sequence of the images are as follows:
+	1. Boxes Harris Corner Detection
+	<br>Rainier1 Harris Corner Detection 			
+	<br>Rainier2 Harris Corner Detection 			
+	2. SIFT matches for Rainier 1-2 				
+	3. RANSAC Matches for Rainier1 and Rainier2 		
+	4. Stitched Rainier1 and Rainier2 (R1-2) 			
+	5. RANSAC Matches for R1-2 and Rainier3 (R1-3)
+	6. RANSAC Matches for R1-3 and Rainier4 (R1-4)
+	7. RANSAC Matches for R1-4 and Rainier5 (R1-5)
+	8. RANSAC Matches for R1-5 and Rainier6 (R1-6)
+	9. Stitched Rainier1-6	(Scaled 50% For Displaying) 
+	10. RANSAC Matches for Japan1 and Japan2 (JP1-2) 	
+	11. RANSAC Matches for JP1-2 and Japan3 (JP1-3)		
+	12. Stitched Japan1-3 								
+	13. RANSAC Matches for Hanging1 and Hanging1-2		
+	14. Stitched Hanging1-2						
