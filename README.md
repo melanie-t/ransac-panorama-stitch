@@ -5,6 +5,8 @@ Python Version 3.7
 # THE PROJECT
 This project stitches images together to create a Panorama. Images are taken from different perspectives and transformed to fit together by using SIFT feature detection and RANSAC algorithm for homography transformations.
 
+![Rainier](https://github.com/melanie-t/ransac-panorama-stitch/blob/master/src/project_images/output/5.png)
+
 # SET UP INSTRUCTIONS
 1.	Ensure that your Python version is 3.7 and pip is installed
     * Python 3.7<br>https://www.python.org/downloads/release/python-370/
