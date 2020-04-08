@@ -2,12 +2,12 @@
 
 Python Version 3.7
 
-# THE PROJECT
+# The Project
 This project stitches images together to create a Panorama. Images are taken from different perspectives and transformed to fit together by using SIFT feature detection and RANSAC algorithm for homography transformations.
 
 ![Rainier](https://github.com/melanie-t/ransac-panorama-stitch/blob/master/src/project_images/output/5.png)
 
-# SET UP INSTRUCTIONS
+# Set Up Instructions
 1.	Ensure that your Python version is 3.7 and pip is installed
     * Python 3.7<br>https://www.python.org/downloads/release/python-370/
     * pip<br>https://pip.pypa.io/en/stable/installing/
@@ -26,7 +26,7 @@ This project stitches images together to create a Panorama. Images are taken fro
             * 32-bit: opencv_contrib_python-3.4.2.16-cp37-cp37m-win32.whl
             <br>`pip install opencv_contrib_python-3.4.2.16-cp37-cp37m-win32.whl`
 
-# RUNNING THE PROJECT
+# Running the Project
 * Harris Corner Response threshold, RANSAC Iterations and RANSAC threshold can be specified in the global variables found in `Main.py` (Line 6-8)
 1.	Run `Main.py` to execute the program
 2.	To go to the next image, press any key (excluding Esc). Output images are saved in `src/project_images/output`
